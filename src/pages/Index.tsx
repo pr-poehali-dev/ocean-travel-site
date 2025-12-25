@@ -118,7 +118,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="text-3xl font-bold text-primary">🌊</div>
+              <img src="https://cdn.poehali.dev/files/logoza.ru.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-12" />
               <div>
                 <h1 className="text-2xl font-bold text-primary">ОКЕАН ПУТЕШЕСТВИЙ</h1>
                 <p className="text-sm text-muted-foreground">Ваш морской отдых начинается здесь</p>
@@ -437,7 +437,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="text-4xl">🌊</div>
+                <img src="https://cdn.poehali.dev/files/logoza.ru.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-12 brightness-0 invert" />
                 <div>
                   <h3 className="text-xl font-bold">ОКЕАН ПУТЕШЕСТВИЙ</h3>
                   <p className="text-sm text-white/80">Ваш морской отдых</p>
