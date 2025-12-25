@@ -87,21 +87,21 @@ const Index = () => {
   const team = [
     {
       name: 'Анна Соколова',
-      position: 'Директор',
-      photo: 'https://cdn.poehali.dev/projects/3d7f9d8b-a463-41ac-b993-4f72052fc1e6/files/ce5f119f-e58a-4632-b3dc-a01cc9111c79.jpg',
-      description: 'Эксперт по морскому туризму с 15-летним опытом'
+      position: 'Генеральный директор',
+      photo: 'https://cdn.poehali.dev/projects/3d7f9d8b-a463-41ac-b993-4f72052fc1e6/files/80777cb2-cbd8-416e-bcb6-a3cbbfcc23aa.jpg',
+      description: '10 лет в туристической индустрии'
     },
     {
       name: 'Максим Волков',
-      position: 'Менеджер по продажам',
-      photo: 'https://cdn.poehali.dev/projects/3d7f9d8b-a463-41ac-b993-4f72052fc1e6/files/2bf0e9db-3508-40e5-b1e6-7f4c0e5f0b23.jpg',
-      description: 'Подберёт идеальный тур под ваш бюджет и пожелания'
+      position: 'Менеджер по экзотическим направлениям',
+      photo: 'https://cdn.poehali.dev/projects/3d7f9d8b-a463-41ac-b993-4f72052fc1e6/files/794ae530-f60d-46eb-9cae-ab7118fd652a.jpg',
+      description: 'Знает 4 языка'
     },
     {
       name: 'Алиса Чен',
-      position: 'Визовый специалист',
-      photo: 'https://cdn.poehali.dev/projects/3d7f9d8b-a463-41ac-b993-4f72052fc1e6/files/f2a6daef-c30f-4e91-ba8d-3fcb2b362e09.jpg',
-      description: 'Быстрое оформление виз и страховок для любой страны'
+      position: 'Менеджер по визам и документам',
+      photo: 'https://cdn.poehali.dev/projects/3d7f9d8b-a463-41ac-b993-4f72052fc1e6/files/749e9ef6-371f-49ef-875c-ee61a425ed64.jpg',
+      description: 'Юрист, специалист по визам'
     }
   ];
 
@@ -118,11 +118,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src="https://cdn.poehali.dev/files/logoza.ru.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-12" />
-              <div>
-                <h1 className="text-2xl font-bold text-primary">ОКЕАН ПУТЕШЕСТВИЙ</h1>
-                <p className="text-sm text-muted-foreground">Ваш морской отдых начинается здесь</p>
-              </div>
+              <img src="https://cdn.poehali.dev/files/2025-12-25_20-07-32.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-16" />
             </div>
             <nav className="hidden md:flex items-center gap-6">
               <a href="#tours" className="text-foreground hover:text-primary transition-colors">Туры</a>
@@ -437,11 +433,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <img src="https://cdn.poehali.dev/files/logoza.ru.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-12 brightness-0 invert" />
-                <div>
-                  <h3 className="text-xl font-bold">ОКЕАН ПУТЕШЕСТВИЙ</h3>
-                  <p className="text-sm text-white/80">Ваш морской отдых</p>
-                </div>
+                <img src="https://cdn.poehali.dev/files/2025-12-25_20-07-32.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-16 brightness-0 invert" />
               </div>
               <p className="text-white/80">
                 Туристическое агентство полного цикла, специализирующееся на морском и пляжном отдыхе
