@@ -433,9 +433,15 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-4 mb-4">
-                <img src="https://cdn.poehali.dev/files/2025-12-25_20-07-32.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-[120px]" style={{ filter: 'brightness(0) invert(1)' }} />
-                <h3 className="text-2xl font-bold">ОКЕАН ПУТЕШЕСТВИЙ</h3>
+              <div className="mb-4">
+                <img 
+                  src="https://cdn.poehali.dev/files/2025-12-25_20-07-32.png" 
+                  alt="ОКЕАН ПУТЕШЕСТВИЙ" 
+                  className="h-[120px]"
+                  style={{ 
+                    filter: 'brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%)'
+                  }} 
+                />
               </div>
               <p className="text-white/80">
                 Туристическое агентство полного цикла, специализирующееся на морском и пляжном отдыхе
