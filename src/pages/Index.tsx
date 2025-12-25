@@ -118,8 +118,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <img src="https://cdn.poehali.dev/files/2025-12-25_20-07-32.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-20" />
-              <p className="text-sm text-muted-foreground mt-1">Открой мир с новой стороны</p>
+              <img src="https://cdn.poehali.dev/files/2025-12-25_20-07-32.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-24" />
             </div>
             <nav className="hidden md:flex items-center gap-6">
               <a href="#tours" className="text-foreground hover:text-primary transition-colors">Туры</a>
@@ -434,8 +433,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="mb-4">
-                <img src="https://cdn.poehali.dev/files/2025-12-25_20-07-32.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-20 brightness-0 invert" />
-                <p className="text-sm text-white/80 mt-1">Открой мир с новой стороны</p>
+                <img src="https://cdn.poehali.dev/files/2025-12-25_20-07-32.png" alt="ОКЕАН ПУТЕШЕСТВИЙ" className="h-24" style={{ filter: 'brightness(0) invert(1)' }} />
               </div>
               <p className="text-white/80">
                 Туристическое агентство полного цикла, специализирующееся на морском и пляжном отдыхе
