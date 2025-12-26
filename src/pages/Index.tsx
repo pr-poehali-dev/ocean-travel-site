@@ -383,11 +383,12 @@ const Index = () => {
                     <p className="text-muted-foreground">info@ocean-travel.ru</p>
                   </div>
                 </div>
-                <div className="mt-6 h-64 bg-muted rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <Icon name="Map" size={48} className="text-muted-foreground mx-auto mb-2" />
-                    <p className="text-muted-foreground">Интерактивная карта</p>
-                  </div>
+                <div className="mt-6 rounded-lg overflow-hidden">
+                  <img 
+                    src="https://cdn.poehali.dev/files/2025-12-27_00-35-42.png" 
+                    alt="Карта офиса Океан Путешествий" 
+                    className="w-full h-64 object-cover"
+                  />
                 </div>
               </CardContent>
             </Card>
